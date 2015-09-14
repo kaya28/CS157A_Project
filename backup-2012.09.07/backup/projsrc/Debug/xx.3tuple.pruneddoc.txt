@@ -1,0 +1,2 @@
+pruneDocFreq removing [network analysi social] 1.047619
+pruneDocFreq removing [proceed intern confer] 1.000000

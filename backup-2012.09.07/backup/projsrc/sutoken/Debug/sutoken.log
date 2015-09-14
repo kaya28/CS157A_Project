@@ -1,0 +1,64 @@
+﻿Build started 9/14/2015 10:20:44 AM.
+     1>Project "C:\04CS257Semantic DB\backup-2012.09.07\backup\projsrc\sutoken\sutoken.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Common Files\System\ado" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\sutoken.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Common Files\System\ado" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\sutoken.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Config.cpp DataStorage.cpp FreqList.cpp P267_Primitives.cpp porterStemmer.cpp sutoken.cpp ThreadManager.cpp Token.cpp TokenizerUtils.cpp URLPage.cpp
+         URLPage.cpp
+         TokenizerUtils.cpp
+     1>c:\04cs257semantic db\backup-2012.09.07\backup\projsrc\sutoken\tokenizerutils.cpp(117): warning C4018: '<' : signed/unsigned mismatch
+         Token.cpp
+     1>c:\04cs257semantic db\backup-2012.09.07\backup\projsrc\sutoken\token.cpp(117): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+         ThreadManager.cpp
+     1>c:\04cs257semantic db\backup-2012.09.07\backup\projsrc\sutoken\threadmanager.cpp(236): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\04cs257semantic db\backup-2012.09.07\backup\projsrc\sutoken\threadmanager.cpp(237): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\04cs257semantic db\backup-2012.09.07\backup\projsrc\sutoken\threadmanager.cpp(307): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\04cs257semantic db\backup-2012.09.07\backup\projsrc\sutoken\threadmanager.cpp(377): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\04cs257semantic db\backup-2012.09.07\backup\projsrc\sutoken\threadmanager.cpp(323): warning C4101: 'toIdx' : unreferenced local variable
+     1>c:\04cs257semantic db\backup-2012.09.07\backup\projsrc\sutoken\threadmanager.cpp(725): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\04cs257semantic db\backup-2012.09.07\backup\projsrc\sutoken\threadmanager.cpp(851): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\04cs257semantic db\backup-2012.09.07\backup\projsrc\sutoken\threadmanager.cpp(984): warning C4018: '<' : signed/unsigned mismatch
+         sutoken.cpp
+         porterStemmer.cpp
+         P267_Primitives.cpp
+     1>c:\04cs257semantic db\backup-2012.09.07\backup\projsrc\sutoken\p267_primitives.cpp(13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\04cs257semantic db\backup-2012.09.07\backup\projsrc\sutoken\p267_primitives.cpp(16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\04cs257semantic db\backup-2012.09.07\backup\projsrc\sutoken\p267_primitives.cpp(19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+         FreqList.cpp
+     1>c:\04cs257semantic db\backup-2012.09.07\backup\projsrc\sutoken\freqlist.cpp(118): warning C4101: 'sSQL' : unreferenced local variable
+     1>c:\04cs257semantic db\backup-2012.09.07\backup\projsrc\sutoken\freqlist.cpp(168): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+         DataStorage.cpp
+         Config.cpp
+     1>c:\04cs257semantic db\backup-2012.09.07\backup\projsrc\sutoken\config.cpp(193): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\04cs257semantic db\backup-2012.09.07\backup\projsrc\sutoken\config.cpp(197): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\sutoken1.res" sutoken1.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\04CS257Semantic DB\backup-2012.09.07\backup\projsrc\Debug\sutoken.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\04CS257Semantic DB\backup-2012.09.07\backup\projsrc\Debug\sutoken.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\04CS257Semantic DB\backup-2012.09.07\backup\projsrc\Debug\sutoken.lib" /MACHINE:X86 /SAFESEH Debug\sutoken1.res
+         Debug\Config.obj
+         Debug\DataStorage.obj
+         Debug\FreqList.obj
+         Debug\P267_Primitives.obj
+         Debug\porterStemmer.obj
+         Debug\stdafx.obj
+         Debug\sutoken.obj
+         Debug\ThreadManager.obj
+         Debug\Token.obj
+         Debug\TokenizerUtils.obj
+         Debug\URLPage.obj
+     1>Config.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         sutoken.vcxproj -> C:\04CS257Semantic DB\backup-2012.09.07\backup\projsrc\Debug\sutoken.exe
+     1>Done Building Project "C:\04CS257Semantic DB\backup-2012.09.07\backup\projsrc\sutoken\sutoken.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.04
